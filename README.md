@@ -212,23 +212,23 @@ Enough reading, time to code. (Also more reading, though...)
 
 After installing PlatformIO, restart VSCode and click on the alien head in the sidebar to open PIO.
 
-![Error Displaying Image!](.gfx\open_pio.png "Open PIO")
+![Error Displaying Image!](.\gfx\open_pio.png "Open PIO")
 
 After opening PIO, click on "Create New Project" to create your first PIO project.
 
-![Error Displaying Image!](.gfx\create_project.png "Create Project")
+![Error Displaying Image!](.\gfx\create_project.png "Create Project")
 
 Creating a new project will pull up the Project Wizard. Be sure to name your project something unique (i.e. **not** "sol-1") and select "Teensy 4.1" as the board. You'll notice that we'll be using the Arduino Framework.
 
-![Error Displaying Image!](.gfx\project_wizard.png, "Project Wizard")
+![Error Displaying Image!](.\gfx\project_wizard.png, "Project Wizard")
 
 Be sure to uncheck the "Use Default Location" flag to place the new project alongside the rest of your RRPL work. You can see below that I use the `C:Users\shiva\Projects\RRPL` folder when working on things for the team. Make sure that you are not in a OneDrive folder when creating your project!
 
-![Error Displaying Image!](.gfx\project_directory.png, "Project Directory")
+![Error Displaying Image!](.\gfx\project_directory.png, "Project Directory")
 
 Now, clicking "Finish" will create your first embedded project in the folder you specified. After some time, you should see a blank editor window in VSCode. Navigate to `main.cpp` in the `src` directory.
 
-![Error Displaying Image!](.gfx\project_directory.png, "main.cpp")
+![Error Displaying Image!](.\gfx\project_directory.png, "main.cpp")
 
 ### 2.2: Programming Basic Projects
 
@@ -276,7 +276,7 @@ uint8_t myFunction(uint8_t x, uint8_t y) {
 
 Now that you've written your first embedded program. It's time to build and upload. Navigate to the "PROJECT TASKS" menu PIO and select "Build and Upload." This will run the build chain on your code, flash the binary onto the MCU, and power cycle the MCU to run the program. You can watch your program run by selecting "Monitor" afterwards.
 
-![Error Displaying Image!](.gfx\build_and_upload.png, "main.cpp")
+![Error Displaying Image!](.\gfx\build_and_upload.png, "main.cpp")
 
 ## 3: Exercises
 
