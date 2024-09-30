@@ -37,9 +37,13 @@ In order to fully understand what goes into programming an MCU (like the flight 
 
 ### 1.1: What is code?
 
-Going back to basics, in CS 101 you learned something along the lines of "'code' is typically defined as a set of instructions written in a programming language that a computer can understand and execute to perform specific tasks or solve problems." While this is true, let's revisit this definition with a more critical eye. For one, you'll notice that the CS 101 definition of code is extraordinarily broad, covering everything from the almost-pseudo-code, superficial Scratch to almost incomprehensible machine code, even [novelty languages](https://en.wikipedia.org/wiki/Esoteric_programming_language) are, by definition, code. Broadly, we can create some notion of a "hierarchy" of programming languages. On one end, we can put the highest, high-level languages, where a code snippets and white-board pseudo-code are almost indistinguishable. Any sufficiently rigorously [formalized](https://en.wikipedia.org/wiki/Formal_language) set of instructions can be considered a [programming language](https://en.wikipedia.org/wiki/Programming_language). In the case of pseudo-code, you act as the interpreter, translating your brainstormed instructions into a traditional programming language (like C++). One could meaningfully describe this as "compiling" your pseudo-code into source code. Given enough technical work and formalization, you could even create a program, say a "compiler," that translates your formalized pseudo-code into C++ for you. Let's continue that idea into the computer. Because programming languages (C++, Assembly, Machine Code, etc.) are all formal (all words have specific definitions and specific relationships with other words), we can go between all of them with predefined compiler programs. (Though we could also do it by hand! Remember, there is no magic under the hood!)
+Going back to basics, in CS 101 you learned something along the lines of:
 
-For clarity's sake, let's define source code, though it should sound quite familiar. Source code refers to the human-readable instructions written in a programming language like C++. In an embedded setting, these instructions define the behavior of a microcontroller, a small processor that interacts with hardware like sensors, lights, even other devices.
+ "'**code**' is typically defined as a set of instructions written in a *programming language* that a computer can understand and execute to perform specific tasks or solve problems."
+
+ While this is true, let's revisit this definition with a more critical eye. For one, you'll notice that the CS 101 definition of code is extraordinarily **broad**, covering everything from the almost-pseudo-code, superficial Scratch to almost incomprehensible machine code, even [novelty languages](https://en.wikipedia.org/wiki/Esoteric_programming_language) are, by definition, "code". Broadly, we can create some notion of a "*hierarchy*" of programming languages. On one end, we can put the highest, high-level languages, where a code snippets and white-board pseudo-code are almost indistinguishable. Any sufficiently rigorously [formalized](https://en.wikipedia.org/wiki/Formal_language) set of instructions can be considered a [programming language](https://en.wikipedia.org/wiki/Programming_language). In the case of pseudo-code, you act as the interpreter, translating your brainstormed instructions into a traditional programming language (like C++). One could meaningfully describe this as "compiling" your pseudo-code into source code. Given enough technical work and formalization, you could even create a program, say a "compiler," that translates your formalized pseudo-code into C++ for you. Let's continue that idea into the computer. Because programming languages (C++, Assembly, Machine Code, etc.) are all formal (all words have specific definitions and specific relationships with other words), we can go between all of them with predefined compiler programs. (Though we could also do it by hand! Remember, there is no magic under the hood!)
+
+For clarity's sake, let's define "source code", though it should sound quite familiar. Source code refers to the human-readable instructions written in a programming language like C++. In an embedded setting, these instructions define the behavior of a microcontroller, a small processor that interacts with hardware like sensors, lights, even other devices.
 
 ### 1.2: Where does code go?
 
@@ -205,8 +209,6 @@ This can be especially challenging in cases where you want specific tasks to be 
 Enough reading, time to code. (Also more reading, though...)
 
 ### 2.1: Creating a PIO Project
-
-1. 
 
 ### 2.2: Programming Basic Projects
 
