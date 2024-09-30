@@ -113,7 +113,7 @@ The compilation stage translates the preprocessed C++ code into assembly languag
 
 5. ```cbi PORTB, PB5```: Clear the corresponding bit in the PORTB register to turn off the LED.
 
-6. ```rjmp loop``1: Jump back to the beginning of the loop function, creating an infinite loop.
+6. ```rjmp loop``` Jump back to the beginning of the loop function, creating an infinite loop.
 
 #### 3. Linking
 
